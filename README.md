@@ -2,7 +2,7 @@
 
 Web app for my wife and I don't forget to buy something on the supermarket.
 
-A live demo can be found on [this link](https://grocerylist-vanillajs-tjazfdhuac.now.sh). 
+A live demo can be found on [this link](https://codesandbox.io/s/github/harlley/grocerylist-react/tree/master/). 
 
 Design and code by [@harlley](https://github.com/harlley)
 
