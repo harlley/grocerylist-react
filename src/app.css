@@ -1,0 +1,156 @@
+* { padding: 0; margin: 0;}
+
+body.emptyList {
+  background-color: #ecf0f1;
+  background-image: url("/images/empty-list.png");
+  background-repeat: no-repeat;
+  background-position: center 200px;
+}
+
+li {
+  list-style: none;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.topBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.inputItem .itemName {
+  height: 72px;
+  display: flex;
+}
+
+.inputItem .itemName input {
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  padding-left: 20px;
+  font-size: 20px;
+  font-family: Lato;
+  font-weight: 300;
+}
+
+.inputItem .itemName button {
+  height: 72px;
+  background-color: #2b99d6;
+  width: 100px;
+  border: none;
+}
+
+.inputItem .minimumStock {
+  height: 72px;
+  background-color: #334a5d;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ecf0f1;
+  justify-content: space-around;
+}
+
+.inputItem .minimumStock button {
+  background: none;
+  border: none;
+}
+
+
+.inputItem .minimumStock label, 
+.inputItem .minimumStock span {
+  width: 60px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.inputItem .minimumStock span {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+
+.topBar .updateList {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.topBar .updateList label {
+  width: 80px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+}
+
+.topBar .updateList button {
+  color: #fff;
+  border: none;
+  width: 100px;
+  height: 72px;
+  background-color: #34495E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topBar .updateList button.save {
+  width: 100%;
+  background-color: #3498DB;
+}
+
+#GroceryList {
+  margin-top: 72px;
+}
+
+.item .description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ecf0f1;
+  height: 72px;
+  border-bottom: 1px solid #DED8D8;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 300;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #4A4A4A;
+}
+
+.item .description.hasToBuy {
+  background-color: #f53c43;
+  color: #fff;
+}
+
+.item .description sup {
+  font-size: 9px;
+}
+
+.item .actions {
+  display: flex;
+  background-color: #334a5d;
+  height: 72px;
+  border-bottom: 1px solid #ecf0f1;
+  
+}
+
+.item .actions button {
+  background-color: #334a5d;
+  width: 33.33%;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
